@@ -19,7 +19,7 @@ Once you've modified the **dnshostname** attribute you'll have to request a **ne
 LDAPfx.exe DC1:636 wks2_cert.pfx "CN=WKS2,CN=Computers,DC=test,DC=local" "wks2.test.local"
 [*] Adding certificate to the LDAPConnection
 [*] Requesting LDAPS using the certificate
-[*] Current LDAP user : u:TEST\Administrator
+[*] Current LDAP user : u:TEST\WKS2$
 [*] Default naming context : DC=test,DC=local
 [*] Current dnshostname attribute : wks2.modifyme.test.local
 [*] Did modifying the attribute succeed ? : Success
